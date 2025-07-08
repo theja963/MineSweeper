@@ -87,14 +87,8 @@ This will play a game of Minesweeper using TinyLLaMA predictions on the visible 
 
 ## 🧠 TODO
 
-- Improve MCTS to real tree-based rollout.
-- Add GUI or CLI interface for interactive play.
+- Improvise the restricted MCTS for better iterations
+- Add module to train model on different shapes, sizes and difficulty(currently model is trained specific structure)
 - Save and load model checkpoints.
 - Integrate reward shaping for better training signals.
 - Integrate text-to-action parsing via LLM outputs robustly.
-
----
-
-## 📜 License
-
-MIT License
